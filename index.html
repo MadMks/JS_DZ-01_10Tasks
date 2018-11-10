@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Введение в Javascript</title>
+</head>
+<body>
+    
+
+    <div class="container">
+        <div>
+            <h1>Введение в Javascript</h1>
+
+            <h2>Задание</h2>
+            <P>    
+                Запрашивать данные у пользователя необходимо с помощью
+                prompt(), а выводить результат с помощью alert().
+            </P>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row main-cards">
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 1</h5>
+                    <p class="card-text">
+                        Запросите у пользователя его имя и выведите в ответ:
+                        «Привет, его имя!».
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task1()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 2</h5>
+                    <p class="card-text">
+                        Запросите у пользователя год его рождения, посчитайте,
+                        сколько ему лет и выведите результат. Текущий год укажите
+                        в коде как константу.
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task2()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 3</h5>
+                    <p class="card-text">
+                        Запросите у пользователя длину стороны квадрата и 
+                        выведите периметр такого квадрата.
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task3()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 4</h5>
+                    <p class="card-text">
+                        Запросите у пользователя радиус окружности и выведите
+                        площадь такой окружности.   
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task4()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 5</h5>
+                    <p class="card-text">
+                        Запросите у пользователя расстояние в км между двумя
+                        городами и за сколько часов он хочет добраться. 
+                        Посчитайте скорость, с которой необходимо двигаться, чтобы
+                        успеть вовремя.
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task5()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 6</h5>
+                    <p class="card-text">
+                        Реализуйте конвертор валют. Пользователь вводит доллары, 
+                        программа переводит в евро. Курс валюты храните в
+                        константе.
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task6()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 7</h5>
+                    <p class="card-text">
+                        Пользователь указывает объем флешки в Гб. Программа
+                        должна посчитать сколько файлов размером в 820 Мб 
+                        помещается на флешку.
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task7()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 8</h5>
+                    <p class="card-text">
+                        Пользователь вводит сумму денег в кошельке и цену одной
+                        шоколадки. Программа выводит сколько шоколадок может
+                        купить пользователь и сколько сдачи у него останется.
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task8()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 9</h5>
+                    <p class="card-text">
+                        Запросите у пользователя трехзначное число и выведите
+                        его задом наперед. Для решения задачи вам понадобится
+                        оператор % (остаток от деления).
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task9()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="col-12 card">
+                <div class="card-body">
+                    <h5 class="card-title">Задача 10</h5>
+                    <p class="card-text">
+                        Запросите у пользователя целое число и выведите в ответ,
+                        четное число или нет. В задании используйте логические
+                        операторы. В задании не надо использовать if или switch.
+                    </p>
+                    <button type="button" class="btn btn-success"
+                            onclick="task10()">
+                        Запустить
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- solution of tasks -->
+    <script src="js/allTasks.js"></script>
+
+</body>
+</html>
